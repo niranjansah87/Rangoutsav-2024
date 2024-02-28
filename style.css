@@ -711,7 +711,7 @@
 		display: block;
 		height: 40px;
 		width: auto;
-		max-width:none;
+		max-width:auto;
 	}
 	
 	#logo img.black-logo {
@@ -725,10 +725,18 @@
 	#logo img.white-logo {
 		position:absolute;
 		top:-25px;
-		left:0;
-		opacity:0;
+		left:-55;
+		opacity:2;
 	}
-	
+	#logo img.white-logo2 {
+		width: 6rem;
+		height: 5rem;
+		position: absolute;
+		top: -39px;
+		left: 37;
+		opacity: 2;
+	}
+	}
 	.light-content #logo img.white-logo {
 		opacity:1;
 	}
