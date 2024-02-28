@@ -1,0 +1,8 @@
+h1{
+    background: url(../images/color.jpg);
+    background-size: cover;
+    -webkit-animation-fill-mode: transparent;
+    animation-fill-mode: transparent;
+    -webkit-background-clip: text;
+    background-clip: text;
+    }
