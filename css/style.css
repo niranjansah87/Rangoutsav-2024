@@ -1,8 +1,86 @@
-h1{
-    background: url(../images/color.jpg);
-    background-size: cover;
-    -webkit-animation-fill-mode: transparent;
-    animation-fill-mode: transparent;
-    -webkit-background-clip: text;
-    background-clip: text;
-    }
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&family=Staatliches&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    background-color: black;
+}
+
+.header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 50px;
+    padding: 0 2vw;
+}
+
+.logo {
+    color: var(--color-black);
+}
+
+.navlinks ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2vw;
+}
+
+.navlinks ul a {
+    color: white;
+    text-decoration: none;
+    font-weight: 600;
+    letter-spacing: 0.05em;
+    font-size: 1.1vw;
+}
+
+canvas {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+}
+
+.gradient {
+    background: linear-gradient(
+        90deg,
+        rgba(255, 23, 228, 1) 0%,
+        rgba(134, 251, 251, 1) 100%
+    );
+    height: 2px;
+}
+
+#myVideo {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: fit-content;
+    z-index: -3;
+}
+
+h1 {
+    color: white;
+    padding: 20px;
+    font-size: 24px;
+    text-align: center;
+}
+
+/* Additional CSS can be included here if needed */
+/* Your existing CSS code */
+.hidden {
+    visibility: hidden;
+    opacity: 0;
+    transition: visibility 0s, opacity 0.5s linear;
+}
+.visible {
+    visibility: visible;
+    opacity: 1;
+    transition: visibility 0s, opacity 0.5s linear;
+}
