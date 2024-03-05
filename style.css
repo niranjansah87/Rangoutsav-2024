@@ -1,8 +1,8 @@
 
-@import url("css/showcase.css");
-@import url("css/portfolio.css");
-@import url("css/shortcodes.css");
-@import url("css/assets.css");
+@import url("./css/showcase.css");
+@import url("./css/portfolio.css");
+@import url("./css/shortcodes.css");
+@import url("./css/assets.css");
 @font-face {
   font-family: 2589-LDR;
   src: url(./fonts/2589-LDR.ttf);
